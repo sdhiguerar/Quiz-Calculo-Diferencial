@@ -122,28 +122,28 @@ PREGUNTAS = [
     {
         "enunciado": (
             "**Pregunta 1.** ¿Cuál es el valor exacto de "
-            "$\\cos\\!\\left(\\dfrac{5\\pi}{6}\\right)$?"
+            "$\\cos\\!\\left(\\dfrac{2\\pi}{3}\\right)$?"
         ),
         "opciones": [
             "A) $\\dfrac{\\sqrt{3}}{2}$",
             "B) $-\\dfrac{1}{2}$",
-            "C) $-\\dfrac{\\sqrt{3}}{2}$",
-            "D) $\\dfrac{1}{2}$",
+            "C) $\\dfrac{1}{2}$",
+            "D) $-\\dfrac{\\sqrt{2}}{2}$",
         ],
-        "correcta": "C) $-\\dfrac{\\sqrt{3}}{2}$",
+        "correcta": "B) $-\\dfrac{1}{2}$",
     },
     {
         "enunciado": (
-            "**Pregunta 2.** Si $\\tan(x) = \\dfrac{3}{4}$ y $x$ está en el primer cuadrante, "
+            "**Pregunta 2.** Si $\\tan(x) = \\dfrac{5}{12}$ y $x$ está en el primer cuadrante, "
             "¿cuál es el valor de $\\sin(x)$?"
         ),
         "opciones": [
-            "A) $\\dfrac{4}{5}$",
-            "B) $\\dfrac{3}{5}$",
-            "C) $\\dfrac{3}{4}$",
-            "D) $\\dfrac{4}{3}$",
+            "A) $\\dfrac{12}{13}$",
+            "B) $\\dfrac{5}{12}$",
+            "C) $\\dfrac{5}{13}$",
+            "D) $\\dfrac{13}{5}$",
         ],
-        "correcta": "B) $\\dfrac{3}{5}$",
+        "correcta": "C) $\\dfrac{5}{13}$",
     },
 ]
 
