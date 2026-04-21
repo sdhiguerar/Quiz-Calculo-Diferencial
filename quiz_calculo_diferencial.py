@@ -121,36 +121,36 @@ hr { border-color: #e0e7ff; }
 PREGUNTAS = [
     {
         "enunciado": (
-            "**Pregunta 1.** ¿Cuál es el valor exacto de "
-            "$\\cos\\!\\left(\\dfrac{2\\pi}{3}\\right)$?"
+            "**Pregunta 3.** Calcule el siguiente límite:\n\n"
+            "$$\\lim_{x \\to 1} \\dfrac{x^3 - 1}{x^2 - 1}$$"
         ),
         "opciones": [
-            "A) $\\dfrac{\\sqrt{3}}{2}$",
-            "B) $-\\dfrac{1}{2}$",
-            "C) $\\dfrac{1}{2}$",
-            "D) $-\\dfrac{\\sqrt{2}}{2}$",
+            "A) $\\dfrac{3}{2}$",
+            "B) $1$",
+            "C) $2$",
+            "D) $\\dfrac{1}{2}$",
         ],
-        "correcta": "B) $-\\dfrac{1}{2}$",
+        "correcta": "A) $\\dfrac{3}{2}$",
     },
     {
         "enunciado": (
-            "**Pregunta 2.** Si $\\tan(x) = \\dfrac{5}{12}$ y $x$ está en el primer cuadrante, "
-            "¿cuál es el valor de $\\sin(x)$?"
+            "**Pregunta 4.** Calcule el siguiente límite:\n\n"
+            "$$\\lim_{x \\to 4} \\dfrac{\\sqrt{x+5} - 3}{x - 4}$$"
         ),
         "opciones": [
-            "A) $\\dfrac{12}{13}$",
-            "B) $\\dfrac{5}{12}$",
-            "C) $\\dfrac{5}{13}$",
-            "D) $\\dfrac{13}{5}$",
+            "A) $\\dfrac{1}{6}$",
+            "B) $\\dfrac{1}{3}$",
+            "C) $\\dfrac{1}{2}$",
+            "D) $\\dfrac{1}{12}$",
         ],
-        "correcta": "C) $\\dfrac{5}{13}$",
+        "correcta": "A) $\\dfrac{1}{6}$",
     },
 ]
 
 PUNTOS_POR_PREGUNTA = 2.5
 ARCHIVO_REGISTROS   = "registros_quiz.csv"
 ARCHIVO_CONTROL     = "control_quiz.csv"
-CLAVE_PROFESOR      = "profe2024"   # ← cambia esta clave
+CLAVE_PROFESOR      = "UAN2026"   # ← cambia esta clave
 
 # ── Utilidades ────────────────────────────────────────────────────────────────
 def cargar_registros():
