@@ -121,7 +121,7 @@ hr { border-color: #e0e7ff; }
 PREGUNTAS = [
     {
         "enunciado": (
-            "**Pregunta 3.** Calcule el siguiente límite:\n\n"
+            "**Pregunta 1.** Calcule el siguiente límite:\n\n"
             "$$\\lim_{x \\to 1} \\dfrac{x^3 - 1}{x^2 - 1}$$"
         ),
         "opciones": [
@@ -134,7 +134,7 @@ PREGUNTAS = [
     },
     {
         "enunciado": (
-            "**Pregunta 4.** Calcule el siguiente límite:\n\n"
+            "**Pregunta 2.** Calcule el siguiente límite:\n\n"
             "$$\\lim_{x \\to 4} \\dfrac{\\sqrt{x+5} - 3}{x - 4}$$"
         ),
         "opciones": [
